@@ -1,19 +1,20 @@
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
-import './App.css'
+import './App.scss'
 import Home from './pages/Home'
 import TestPage from './pages/TestPage'
+import AppHeader from './layout/AppHeader'
 
 const Layout = () => {
   return(
-    <>
+    <div className='container'>
     <header>
-      Header Test 2
+      <AppHeader/>
     </header>
     <Outlet/>
     <footer>
       Test footer 2
     </footer>
-    </>
+    </div>
   )
 }
 

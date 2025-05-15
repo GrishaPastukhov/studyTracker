@@ -1,0 +1,33 @@
+.AppHeader{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 100px;
+
+    &__h1{
+   color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 100px;
+    }
+}
+
+.burgerMenu{
+    height: 30px;
+    width: 27px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    align-self: center;
+    margin-top: 7px;
+    margin-right: 70px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    &__stripe{
+        width: 25px;
+        height: 0px;
+        border: gray 2px solid;
+        border-radius: 5px;
+    }
+}
